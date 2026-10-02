@@ -1,0 +1,88 @@
+I want to build a full-stack Jewellery E-commerce Web Application similar to Amazon using the MERN stack (MongoDB, Express, React with Vite, Node.js)
+with a proper MVC architecture in the backend.and also vite for frontend
+
+Project Requirements:
+
+1. General:
+- Build a real-world production-level e-commerce website for a jewellery store.
+- Use React (Vite) for frontend.
+- Use Node.js + Express for backend with MVC structure.
+- Use MongoDB for database.
+- Do NOT use Tailwind CSS. Use pure CSS, SCSS, or Bootstrap for a professional and luxury UI.
+- UI theme should be premium (black, gold, elegant design).
+
+2. Buyers panel:
+- User Registration, Login, Logout
+- Secure Authentication using JWT and bcrypt
+- Forgot/Reset Password via email
+- Browse products by category (rings, necklaces, bracelets, etc.)
+- Advanced filters (price, material, purity like 22k, 18k)
+- Search bar (search by product name, category, price, etc.)
+- Product details page with images, description, price, reviews
+- Add to Cart, Update Cart, Remove from Cart
+- Wishlist functionality
+- Checkout and payment integration (Razorpay preferred)
+- Order placement
+- Order tracking (status: pending, shipped, delivered)
+- User profile with order history
+
+3. Admin Panel:
+- Admin Login (secure)
+- Dashboard overview (users, orders, revenue)
+- Manage Users (view/delete)
+- Manage Products (CRUD with image upload)
+- Manage Orders (update order status)
+- Monitor payments
+
+4. Product Model (Important fields):
+- Name, Price, Category
+- Material (gold, silver, diamond)
+- Purity (18k, 22k)
+- Weight
+- Images
+- Description
+- Stock
+- Ratings & Reviews
+
+5. Header & Footer:
+- Header:for buyers
+  - Logo of a jeweelers
+  - Search bar (working search functionality)
+  - Wishlist
+  - Cart
+  - Profile with profile pic
+-header:for admin
+  -- Logo of campany or jewellers
+  - Search bar
+  -profile with profile photo
+- Footer:
+  - About
+  - Contact
+  - Policies
+  - Social links
+
+6. Backend (MVC Structure):
+- Models 
+- Controllers
+- Routes
+- Middleware (Auth, Error handling)
+- Config (DB connection)
+-cart
+-whishlist
+
+7. Additional Features:
+- Image upload using Cloudinary or similar
+- AI-based product recommendation 
+- Clean API structure
+- Error handling and validation
+- Responsive design (mobile + desktop)
+
+8. Deliverables:
+- Full folder structure (frontend + backend)
+- Complete working code
+- API endpoints
+- Database schema
+- Step-by-step setup instructions
+
+Goal:
+Create a fully functional, secure, scalable, and visually premium jewellery e-commerce website that looks like a real-world product and can be used in production.
